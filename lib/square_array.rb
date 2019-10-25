@@ -4,8 +4,10 @@ def square_array(numbers)
   new_array = []
  
   while counter < array.length do
-    array << counter(numbers ** 2)
+    array << array[counter] ** 2
     counter += 1
-    return new_array
   end
+  
+  return new_array
+  
 end
